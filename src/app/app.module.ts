@@ -3,6 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DragScrollModule } from 'ngx-drag-scroll';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -10,7 +16,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,  DragScrollModule,
+    MatIconModule,
+    MatButtonToggleModule,
+    MatButtonModule,MatExpansionModule,BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

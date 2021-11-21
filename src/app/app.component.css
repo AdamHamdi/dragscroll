@@ -1,0 +1,19 @@
+.color-block {
+    width: 100px;
+    height: 20px;
+    margin: 0 6px 20px;
+    
+  }
+  .mat-expansion-panel{width: 500px;
+overflow: auto;}
+.mat-expansion-panel{position: relative;}
+.next{    position: absolute;
+    top: 8px;
+    right: 21px;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.19);}
+    .previous{    position: absolute;
+        top: 8px;
+        left: 21px;
+        background: transparent;
+        border: 1px solid rgba(0,0,0,0.19);}
